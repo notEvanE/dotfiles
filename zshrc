@@ -149,8 +149,8 @@ alias l.='exa -a | egrep "^\."'
 ## yt-dlp
 alias yta-best="yt-dlp --extract-audio --audio-format best "
 alias ytv-best="yt-dlp -f bestvideo+bestaudio "
-alias ytf="yt-dlp -f "
-alias ytF="yt-dlp -F "
+alias yt-df="yt-dlp -f "
+alias yt-lf="yt-dlp -F "
 
 # Customize Prompt(s)
 
