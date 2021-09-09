@@ -146,8 +146,8 @@ alias ll='exa -lF --color=always --group-directories-first'  # long format
 alias lt='exa -aT --level=2 --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'
 
-## youtube-dl
-alias yta-best="youtube-dl --extract-audio --audio-format best "
+## yt-dlp
+alias yta-best="yt-dlp --extract-audio --audio-format best "
 alias ytv-best="yt-dlp -f bestvideo+bestaudio "
 alias ytf="yt-dlp -f "
 alias ytF="yt-dlp -F "
