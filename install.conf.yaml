@@ -9,6 +9,7 @@
     ~/.gitconfig:
     ~/.doom.d:
     ~/.oh-my-zsh/custom: ~/.dotfiles/oh-my-zsh
+    ~/.p10k.zsh:
     # ~/.test:
 
 - create:
