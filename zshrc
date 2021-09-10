@@ -163,7 +163,7 @@ alias emacs-init="open -a emacs ~/.doom.d/init.el"
 
 # Add locations to $PATH variables
 
-# Write Hnady Functions
+# Write Handy Functions
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
