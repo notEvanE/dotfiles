@@ -8,6 +8,7 @@
     ~/.zshrc:
     ~/.gitconfig:
     ~/.doom.d:
+    ~/.oh-my-zsh/custom: ~/.dotfiles/oh-my-zsh
     # ~/.test:
 
 - create:
