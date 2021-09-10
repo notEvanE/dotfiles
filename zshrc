@@ -135,6 +135,8 @@ alias l.='exa -a | egrep "^\."'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Set Variables
+# Syntax highlighting for man pages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Change ZSH Options
 
@@ -151,6 +153,11 @@ alias yta-best="yt-dlp --extract-audio --audio-format best "
 alias ytv-best="yt-dlp -f bestvideo+bestaudio "
 alias yt-df="yt-dlp -f "
 alias yt-lf="yt-dlp -F "
+
+## Open in Emacs
+alias emacs-config="open -a emacs ~/.doom.d/config.org"
+alias emacs-pack="open -a emacs ~/.doom.d/packages.el"
+alias emacs-init="open -a emacs ~/.doom.d/init.el"
 
 # Customize Prompt(s)
 
