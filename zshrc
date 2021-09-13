@@ -164,6 +164,8 @@ alias zshrc-config="open -a emacs ~/.zshrc"
 alias dot2pdf="~/.dotfiles/scripts/dot2pdf.sh"
 
 ## Shortcuts
+alias dev="cd ~/dev"
+alias dotfiles="cd ~/.dotfiles"
 alias rep="cd ~/dev/Representation"
 alias repwork="cd ~/dev/Representation/workspace"
 alias icgen="cd ~/dev/icGenerator"
