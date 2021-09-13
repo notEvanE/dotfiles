@@ -57,3 +57,5 @@
 (package! reveal-in-osx-finder)
 (package! cobol-mode)
 (package! column-enforce-mode)
+(package! all-the-icons)
+(package! cmake-ide)

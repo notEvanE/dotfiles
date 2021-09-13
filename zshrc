@@ -81,6 +81,8 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+export PATH=/usr/local/opt/llvm/bin:$PATH
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -150,7 +152,7 @@ alias l.='exa -a | egrep "^\."'
 
 ## yt-dlp
 alias yta-best="yt-dlp --extract-audio --audio-format best "
-alias ytv-best="yt-dlp -f bestvideo+bestaudio "
+alias ytv-best="yt-dlp -f bestvideo+bestaudio --merge-output-format mkv "
 alias yt-df="yt-dlp -f "
 alias yt-lf="yt-dlp -F "
 
@@ -158,6 +160,7 @@ alias yt-lf="yt-dlp -F "
 alias doom-config="open -a emacs ~/.doom.d/config.org"
 alias doom-pack="open -a emacs ~/.doom.d/packages.el"
 alias doom-init="open -a emacs ~/.doom.d/init.el"
+alias doom-open="open -a emacs "
 alias zsh-config="open -a emacs ~/.zshrc"
 
 ## Scripts

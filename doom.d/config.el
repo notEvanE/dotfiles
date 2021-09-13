@@ -93,3 +93,5 @@
 
 (map! :leader
       (:desc "Open in Finder" "z" #'reveal-in-osx-finder))
+
+(setq projectile-project-search-path '("~/dev/"))
