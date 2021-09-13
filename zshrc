@@ -155,9 +155,9 @@ alias yt-df="yt-dlp -f "
 alias yt-lf="yt-dlp -F "
 
 ## Open in Emacs
-alias emacs-config="open -a emacs ~/.doom.d/config.org"
-alias emacs-pack="open -a emacs ~/.doom.d/packages.el"
-alias emacs-init="open -a emacs ~/.doom.d/init.el"
+alias doom-config="open -a emacs ~/.doom.d/config.org"
+alias doom-pack="open -a emacs ~/.doom.d/packages.el"
+alias doom-init="open -a emacs ~/.doom.d/init.el"
 alias zsh-config="open -a emacs ~/.zshrc"
 
 ## Scripts
