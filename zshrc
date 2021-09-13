@@ -158,6 +158,16 @@ alias yt-lf="yt-dlp -F "
 alias emacs-config="open -a emacs ~/.doom.d/config.org"
 alias emacs-pack="open -a emacs ~/.doom.d/packages.el"
 alias emacs-init="open -a emacs ~/.doom.d/init.el"
+alias zshrc-config="open -a emacs ~/.zshrc"
+
+## Scripts
+alias dot2pdf="~/.dotfiles/scripts/dot2pdf.sh"
+
+## Shortcuts
+alias rep="cd ~/dev/Representation"
+alias repwork="cd ~/dev/Representation/workspace"
+alias icgen="cd ~/dev/icGenerator"
+alias icgenviz="cd /Users/eerickson/dev/icGenerator/src/main/resources/tmp"
 
 # Customize Prompt(s)
 
