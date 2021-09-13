@@ -158,7 +158,7 @@ alias yt-lf="yt-dlp -F "
 alias emacs-config="open -a emacs ~/.doom.d/config.org"
 alias emacs-pack="open -a emacs ~/.doom.d/packages.el"
 alias emacs-init="open -a emacs ~/.doom.d/init.el"
-alias zshrc-config="open -a emacs ~/.zshrc"
+alias zsh-config="open -a emacs ~/.zshrc"
 
 ## Scripts
 alias dot2pdf="~/.dotfiles/scripts/dot2pdf.sh"
