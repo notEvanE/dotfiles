@@ -165,6 +165,8 @@ alias zsh-config="open -a emacs ~/.zshrc"
 
 ## Scripts
 alias dot2pdf="~/.dotfiles/scripts/dot2pdf.sh"
+alias c320="~/.dotfiles/scripts/convert_to_320_aac.sh . ~/Music/encoded"
+alias c96="~/.dotfiles/scripts/convert_to_96_aac.sh . ~/Music/encoded"
 
 ## Shortcuts
 alias dev="cd ~/dev"
