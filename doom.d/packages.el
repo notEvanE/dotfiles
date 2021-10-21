@@ -59,3 +59,4 @@
 (package! column-enforce-mode)
 (package! all-the-icons)
 (package! cmake-ide)
+(package! browse-kill-ring)
