@@ -11,6 +11,8 @@
     ~/.oh-my-zsh/custom: ~/.dotfiles/oh-my-zsh
     ~/.p10k.zsh:
     ~/.wallpaper:
+    ~/.config/karabiner: ~/.dotfiles/karabiner
+
     # ~/.test:
 
 - create:
