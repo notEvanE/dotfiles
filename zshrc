@@ -177,6 +177,10 @@ alias repwork="cd ~/dev/Representation/workspace"
 alias icgen="cd ~/dev/icGenerator"
 alias icgenviz="cd /Users/eerickson/dev/icGenerator/src/main/resources/tmp"
 
+## Homebrew
+alias brew86="arch -x86_64 /usr/local/homebrew/bin/brew"
+alias brewarm="/opt/homebrew/bin/brew"
+
 # Customize Prompt(s)
 
 # Add locations to $PATH variables
