@@ -12,6 +12,7 @@
     ~/.p10k.zsh:
     ~/.wallpaper:
     ~/.config/karabiner: ~/.dotfiles/karabiner
+    ~/.ideavimrc:
 
     # ~/.test:
 
