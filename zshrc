@@ -6,10 +6,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=$HOME/bin:/opt/homebrew/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/eerickson/.oh-my-zsh"
+
+# Path to brew.
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -117,11 +120,11 @@ alias doompurge="~/.emacs.d/bin/doom purge"
 alias doomclean="~/.emacs.d/bin/doom clean"
 
 # Changing "ls" to "exa"
-alias ls='exa -al --color=always --group-directories-first' # my preferred listing
-alias la='exa -a --color=always --group-directories-first'  # all files and dirs
-alias ll='exa -l --color=always --group-directories-first'  # long format
-alias lt='exa -aT --level=2 --color=always --group-directories-first' # tree listing
-alias l.='exa -a | egrep "^\."'
+# alias ls='exa -al --color=always --group-directories-first' # my preferred listing
+# alias la='exa -a --color=always --group-directories-first'  # all files and dirs
+# alias ll='exa -l --color=always --group-directories-first'  # long format
+# alias lt='exa -aT --level=2 --color=always --group-directories-first' # tree listing
+# alias l.='exa -a | egrep "^\."'
 
 # youtube-dl
 # alias yta-aac="youtube-dl --extract-audio --audio-format aac "
@@ -178,8 +181,11 @@ alias icgen="cd ~/dev/icGenerator"
 alias icgenviz="cd /Users/eerickson/dev/icGenerator/src/main/resources/tmp"
 
 ## Homebrew
-alias brew86="arch -x86_64 /usr/local/homebrew/bin/brew"
-alias brewarm="/opt/homebrew/bin/brew"
+# alias brew="/opt/homebrew/bin/brew"
+alias brewupdate="echo 'Updating Homebrew and Casks' && brew cu -af && echo 'Upgrading Packages' && brew upgrade"
+
+## App Management
+alias updateapps="echo 'Updating Homebrew and Casks...' && brew cu -af && echo 'Upgrading Packages...' && brew upgrade && echo 'Updating Apps from App Store...' && mas upgrade && echo 'Updating Doom Emacs...' && doomupgrade && doomdoctor & doomsync"
 
 # Customize Prompt(s)
 
