@@ -12,7 +12,7 @@ fi
 export ZSH="/Users/eerickson/.oh-my-zsh"
 
 # Path to brew.
-eval "$(/opt/homebrew/bin/brew shellenv)"
+# eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -168,7 +168,7 @@ alias doom-open="open -a emacs "
 alias zsh-config="open -a emacs ~/.zshrc"
 
 ## Scripts
-alias dot2pdf="~/.dotfiles/scripts/dot2pdf.sh"
+alias dotpdf="~/.dotfiles/scripts/dot2pdf.sh"
 alias c320="~/.dotfiles/scripts/convert_to_320_aac.sh . ~/Music/encoded"
 alias c96="~/.dotfiles/scripts/convert_to_96_aac.sh . ~/Music/encoded"
 
